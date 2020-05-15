@@ -1,0 +1,29 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-family: system-ui, Arial, sans-serif;
+	line-height: 1.4;
+}
+
+.galerie {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	padding: 0;
+	height: 1400px;
+}
+
+.galerie li {
+	list-style: none;
+	width: 25%;
+	margin-right: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.galerie li img {
+	display: block;
+	width: 100%;
+	max-height: auto;
+}
